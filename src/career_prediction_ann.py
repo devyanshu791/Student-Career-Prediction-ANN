@@ -17,7 +17,7 @@ from tensorflow.keras.utils import to_categorical
 from sklearn.utils.class_weight import compute_class_weight
 
 # Step 3 — Load Dataset
-df = pd.read_csv('cs_students.csv')
+df = pd.read_csv('data/cs_students.csv')
 
 print("=== Original Shape ===", df.shape)
 
